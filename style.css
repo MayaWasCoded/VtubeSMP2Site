@@ -1,0 +1,93 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(90, 159, 250);
+}
+a{
+    text-decoration: none;
+    color: rgb(121, 173, 219);
+    font-size: 20px;
+}
+a.home{
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+a.squad{
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+a.information{
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+a.apply-form{
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+a.rules{
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+a:hover{
+    background-color: rgb(204, 171, 176);
+    font-size: 21px;
+    color: rgb(91, 121, 255);
+}
+#menu{
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    background-color: rgb(255, 214, 221);
+    height: 50px;
+}
+#intruduction{
+    color: white;
+    text-align: center;
+    background-color: rgb(166, 166, 248);
+    width: auto;
+    height: 210px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -15px;
+}
+#about-us{
+    font-size: 19px;
+}
+#apply-btn{
+    border-radius: 7px;
+    position: relative;
+
+}
+button{
+    align-items: center;
+    border-radius: 7px;
+    border-width: 0px;
+}
+button:hover{
+    font-size: larger;
+}
+#apply-form{
+    text-align: center;
+}
+input:hover, textarea:hover{
+    font-size: 14px;
+    background-color: rgb(134, 134, 255);
+}
+input, textarea{
+    border-radius: 7px;
+    background-color: rgb(122, 222, 255);
+    color: rgb(139, 31, 31);
+    font-size: 14px;
+}
+#content{
+    text-align: center;
+    color: rgb(41, 255, 123);
+}

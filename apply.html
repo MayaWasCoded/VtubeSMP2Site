@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Vtube SMP: Apply!</title>
+</head>
+
+<body>
+    <div id="menu">
+        <a class="home" href="index.html">Home</a>
+        <a class="information" href="info.html">Info</a>
+        <a class="apply-form" href="apply.html">Apply</a>
+        <a class="squad" href="squad.html">Our Squad!</a>
+        <a class="rules" href="https://docs.google.com/forms/d/1Mg00UizghtIa9vot4THXzR_KA2rhHOaierxE50Oc8NU/edit?usp=drivesdk">Rules</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="content">
+        <p>
+            This is the site for applying to our crew. <br>
+            Make sure do you want this! <br>
+            Make sure you read rules! 
+        </p>
+    </div>
+    <h2 style="text-align: center;">Apply Form: </h2>
+    <div id="apply-form">
+        <form class="form1">
+            Name: <input type="text" id="name">
+            <br> <br>
+            Nick: <input type="text" id="nick">
+            <br><br>
+            Age: <input type="number" id="age">
+            <br><br>
+            <input type="checkbox" id="accept"> Do you accept rules?
+            <br><br>
+            Reason: <br> <textarea id="reason" cols="20" rows="5"></textarea>
+            <br>
+            <br>
+            <button onclick="send()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
