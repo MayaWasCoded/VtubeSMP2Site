@@ -1,2 +1,2 @@
 # VtubeSMP2Site
-desacription....
+A site for our little company! --STILL IN WORK--
